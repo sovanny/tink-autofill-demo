@@ -4,7 +4,7 @@ This demo app illustrates the Tink Autofill feature documented [here](https://do
 
 The frontend is built with Create React App and the backend is a Node server using [express](https://expressjs.com/). [Axios](https://github.com/axios/axios) is used for communication with backend and Tink API. [Material UI](https://material-ui.com/) is used for styling.
 
-Create two `.env` files, one in client directory and one in backend directory. Set enviroment variables for you Tink app (can be found in [Tink Console](https://console.tink.com/)),
+Create two `.env` files, one in client directory and one in backend directory. Set the enviroment variables for your Tink app (can be found in [Tink Console](https://console.tink.com/)),
 
 client/.env
 
