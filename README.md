@@ -19,13 +19,15 @@ CLIENT_ID=your_client_id
 CLIENT_SECRET=your_client_secret
 ```
 
-Run app:
+Run server and client to run app:
 
 ```
 cd server
 yarn
 yarn start
-cd ..
+```
+
+```
 cd client
 yarn
 yarn start

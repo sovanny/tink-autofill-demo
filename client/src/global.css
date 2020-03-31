@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.app-content {
+  width: 400px;
+  color: rgb(38, 38, 38);
+}
+.account-card {
+  margin: 0.5em 0;
+}
+.form-container {
+  padding: 1em;
+}
+.form-info {
+  margin-bottom: 2em;
+}
+.input {
+  margin-bottom: 1em;
+}
+.textField {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.textField input {
+  background-color: #fff;
+}
+.textField p {
+  color: rgb(54, 180, 114);
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-wrapper {
+  margin-left: 1em;
+}
+.tinkButton.MuiButton-contained {
+  color: rgb(66, 119, 131, 0.93);
+}
+.submitButton.MuiButton-contained {
+  background-color: rgb(66, 119, 131, 0.93);
+}
+.submitButton.MuiButton-contained:hover {
+  background-color: rgb(66, 119, 131);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+.animate {
+  animation: 1s ease-in 0s 1 fadeIn;
+}
